@@ -1,0 +1,48 @@
+NIN-JUH
+HOW TO PLAY:
+
+
+AIM OF THE GAME:
+The main objective of the game is to correctly spell the name of the fruit that appears on the screen.
+
+INSTRUCTIONS:
+1.	Look at the fruit appearing on the screen. 
+
+2.	Look at the fruit name; notice that there is a missing letter.
+ 
+3.	Using the box, correctly fill in the fruit name using the textbox to correspond with the fruit showing on the screen. 
+
+4.	If you correctly place the right letter/s to complete the fruit name, your current health you will remain the same.
+
+5.	If you incorrectly place the wrong letter, your current health will decrease.
+
+6.	Remember to enjoy the game!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+

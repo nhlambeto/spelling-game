@@ -1,0 +1,6 @@
+PLAYERNAME	CORRECT ANSWERS	WRONG ANSWERS
+AMAHLE	                 10     	3
+NHLAMBETO	          5	        5
+OSIMELE                   7	        3
+TIRELO	                 9	        2
+
