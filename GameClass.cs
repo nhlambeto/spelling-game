@@ -35,7 +35,7 @@ namespace INF164HWAss1
             healthPlayer = initialHealth;
             scorePlayer = 0;
             scoreEnemy = 0;
-            GameTime = TimeSpan.Zero;
+            GameTime = TimeSpan.FromSeconds(30);
 
             gameTimer = new Timer();
             gameTimer.Interval = 1000;
@@ -53,8 +53,14 @@ namespace INF164HWAss1
 
         private void GameTimer_Tick(object sender, EventArgs e)
         {
-            gameTime.Add(TimeSpan.FromSeconds(1));
+            gameTime = gameTime.Subtract(TimeSpan.FromSeconds(1));
             OnTimerTick?.Invoke(scorePlayer, scoreEnemy, GameTime);
+
+            if (gameTime.TotalSeconds <= 0)
+            {
+                gameTimer.Stop();
+                OnGameOver?.Invoke();
+            }
         }
 
         public void LoadNextFruit()
